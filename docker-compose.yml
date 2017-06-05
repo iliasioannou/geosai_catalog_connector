@@ -5,6 +5,8 @@ services:
     environment:
       - POSTGRES_PASSWORD=geonetwork
     container_name: cmems_postgres
+    volumes:
+      - ./datavolume:/opt/data-volume
   geonetwork:
     image: geonetwork:postgres
     environment:
