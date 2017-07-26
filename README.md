@@ -3,7 +3,8 @@
 
 ## Account amministratore
 L'utenza di amministratore è : 
-admin / admincmems
+user:admin
+password: pkz29geonetwork
 
 
 
