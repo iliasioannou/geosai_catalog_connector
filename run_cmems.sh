@@ -7,5 +7,5 @@ sleep 10
 docker-compose up -d
 sleep 10
 echo "importing settings"
-docker exec -it cmems_postgres psql -U postgres geonetwork -a -f /opt/data-volume/db.sql
+docker exec -it eosai_postgres psql -U postgres geonetwork -a -f /opt/data-volume/db.sql
 echo "importing completed"
