@@ -4,7 +4,7 @@ services:
     image: postgres
     environment:
       - POSTGRES_PASSWORD=geonetwork
-    container_name: cmems_postgres
+    container_name: eosai_postgres
     volumes:
       - ./datavolume:/opt/data-volume
   geonetwork:
@@ -12,6 +12,6 @@ services:
     environment:
       - POSTGRES_DB_USERNAME=postgres
       - POSTGRES_DB_PASSWORD=geonetwork
-    container_name: cmems_geonetwork
+    container_name: eosai_geonetwork
     ports:
       - 8080:8080
