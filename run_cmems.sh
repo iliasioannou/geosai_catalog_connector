@@ -1,6 +1,6 @@
 #! /bin/bash
 
-echo "Running compose "
+echo "[EOSAI Geonetwork] Running compose "
 docker-compose up -d postgres
 echo "Going to sleep"
 sleep 10
